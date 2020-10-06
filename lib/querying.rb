@@ -26,7 +26,7 @@ def select_series_title_with_most_human_characters
     WHERE species = 'human'
     GROUP BY characters.species
     ORDER BY species
-    DESC LIMIT 1;"
+    LIMIT 1;"
 end
 
 def select_character_names_and_number_of_books_they_are_in
